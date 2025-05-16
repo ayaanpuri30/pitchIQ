@@ -8,8 +8,8 @@ BASE_DIR = os.path.dirname(__file__)
 DATA_DIR = os.path.join(BASE_DIR, "soccerdata")
 PATTERN = os.path.join(DATA_DIR, "*", "Heatmaps", "Quarter3.png")
 
-SUPABASE_URL = "https://rcrngkqsybnjfgyvhnyu.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJjcm5na3FzeWJuamZneXZobnl1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDY5OTYxMzAsImV4cCI6MjA2MjU3MjEzMH0.cMqEN71x059wG5Gw0oDgDk5N8FJ1fgOpTiJ4SP3ppEw"
+SUPABASE_URL = os.getenv("SUPABASE_URL")
+SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 FIXED_TEAM_NAME = "Atlético Madrid"
