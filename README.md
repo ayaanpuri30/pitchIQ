@@ -30,7 +30,7 @@ The app should now be running at:
 - **Frontend**: React + TypeScript
     - **Styling**: Tailwind CSS
 - **Database**: Supabase (PostgreSQL)
-    - **API**: Sportsmonk
+    - **API**: Sportsmonk, openai
 
 ### Computer Vision & Data Pipeline
 - **Language:** Python 
