@@ -3,7 +3,7 @@ import os
 import json
 import time
 
-API_TOKEN = "K5ZQYl6ziNvlrCBGfg8izoLSY7cnhaoHIHnEemowX9Bbdm1uoiKybJ8vdpIW"
+API_TOKEN = ""
 
 BASE_URL_SQUAD = "https://api.sportmonks.com/v3/football/squads/teams"
 BASE_URL_PLAYER = "https://api.sportmonks.com/v3/football/players"

@@ -1,6 +1,6 @@
 import os
 import json
-
+# used this script originally to convert to tsx
 def valid_name(s : str):
     if s[0] in digits or "&" in s or "\'" in s or "(" in s or "/" in s or "\\" in s:
         return False

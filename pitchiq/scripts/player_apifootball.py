@@ -2,7 +2,7 @@ import requests
 from typing import List, Dict
 HEADERS = {
     "X-RapidAPI-Host": "api-football-v1.p.rapidapi.com",
-    "X-RapidAPI-Key": "b0bbb5c087e903cf1d5e6faed4658c06"
+    "X-RapidAPI-Key": ""
 }
 LEAGUES_URL = "https://api-football-v1.p.rapidapi.com/v3/leagues"
 TEAMS_URL = "https://api-football-v1.p.rapidapi.com/v3/teams"

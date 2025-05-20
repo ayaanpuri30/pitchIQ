@@ -2,7 +2,7 @@ import requests
 import json
 import time
 
-API_TOKEN = "K5ZQYl6ziNvlrCBGfg8izoLSY7cnhaoHIHnEemowX9Bbdm1uoiKybJ8vdpIW"
+API_TOKEN = ""
 BASE_URL_COACH = "https://api.sportmonks.com/v3/football/coaches"
 
 # Example: list of coach IDs you want to check

@@ -1,7 +1,7 @@
 import requests
 import json
 import time
-API_TOKEN = "K5ZQYl6ziNvlrCBGfg8izoLSY7cnhaoHIHnEemowX9Bbdm1uoiKybJ8vdpIW"
+API_TOKEN = ""
 cur_page = 1
 BASE_URL = f"https://api.sportmonks.com/v3/football/teams?api_token="+API_TOKEN+"&per_page=50"
 

@@ -9,9 +9,9 @@ DB_CONFIG = {
     "port": 5432,
     "dbname": "postgres",
     "user": "postgres",
-    "password": "9bsDQNRGqwGSVyE0"
+    "password": ""
 }
-CONNECTION_STRING = "postgresql://postgres:9bsDQNRGqwGSVyE0@db.rcrngkqsybnjfgyvhnyu.supabase.co:5432/postgres"
+CONNECTION_STRING = "postgresql://postgres:@db.rcrngkqsybnjfgyvhnyu.supabase.co:5432/postgres"
 #template path for where club data will be stored
 CLUB_DATA_PATH = "pitchiq/src/clubData/*.json"
 
