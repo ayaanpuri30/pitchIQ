@@ -3,13 +3,17 @@ from glob import glob
 from supabase import create_client, Client
 from postgrest import APIError
 from scripts import *
+from pathlib import Path
+import os
+from storage3.exceptions import StorageApiError
 
 BASE_DIR = os.path.dirname(__file__)
 DATA_DIR = os.path.join(BASE_DIR, "soccerdata")
 PATTERN = os.path.join(DATA_DIR, "*", "Heatmaps", "Quarter3.png")
 
 SUPABASE_URL = os.getenv("SUPABASE_URL")
-SUPABASE_KEY = os.getenv("SUPABASE_KEY")
+SUPABASE_KEY = os.getenv("SUPABASE_SERVICE_KEY")
+# SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 FIXED_TEAM_NAME = "Atlético Madrid"
@@ -45,15 +49,36 @@ for img_path in sorted(glob(PATTERN)):
         print(f"GPT failed: {e}")
         continue
 
-    # 3) insert
+    bucket = supabase.storage.from_('heatmaps')
+    file_path = Path(img_path)
+    remote_path = f"{match_id}/Quarter3.png"   # e.g. "20150912/Quarter3.png"
+
+    bucket.update(remote_path, str(img_path))
+
+    heatmap_url = bucket.get_public_url(remote_path)
+
+    # 3) insert/upsert
     row = {
         "match_id": match_id,
         "team_name": FIXED_TEAM_NAME,
         "zone_json": zone_json,
-        "gpt_summary": summary
+        "gpt_summary": summary,
+        "heatmap_url": heatmap_url
     }
+
+
     try:
-        supabase.table("playstyle_summaries").insert(row).execute()
-        print(f"Inserted {match_id} | {FIXED_TEAM_NAME}")
+        supabase.table("playstyle_summaries") \
+                .update({"heatmap_url": heatmap_url}) \
+                .eq("match_id", match_id) \
+                .eq("team_name", FIXED_TEAM_NAME) \
+                .execute()
+        print(f"Updated heatmap_url for {match_id} | {FIXED_TEAM_NAME}")
     except APIError as e:
-        print(f"Supabase error: {e}")
+        print("Supabase update error:", e)
+
+    # try:
+        # supabase.table("playstyle_summaries").upsert(row, on_conflict="match_id,team_name").execute()
+        # print(f"Inserted {match_id} | {FIXED_TEAM_NAME}")
+    # except APIError as e:
+        # print(f"Supabase error: {e}")

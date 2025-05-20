@@ -4,7 +4,6 @@ import os
 import numpy as np
 import openai
 
-
 CONFIG = SoccerPitchConfiguration()
 openai.api_key = os.getenv("OPEN_API_KEY")
 if not openai.api_key:
