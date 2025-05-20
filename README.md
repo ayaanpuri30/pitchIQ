@@ -27,15 +27,20 @@ The app should now be running at:
 ---
 
 ## Tech Stack
-
 - **Frontend**: React + TypeScript
     - **Styling**: Tailwind CSS
 - **Database**: Supabase (PostgreSQL)
     - **API**: Sportsmonk
 
+### Computer Vision & Data Pipeline
+- **Language:** Python 
+- **Video & Image I/O:** OpenCV  
+- **Object Detection / Tracking:** YOLOv8 (via [ultralytics](https://github.com/ultralytics/ultralytics)) and [Supervision](https://github.com/roboflow/supervision)  
+- **Field Homography & Heatmaps:** NumPy + seaborn/matplotlib for KDE visualizations; OpenCV pixel‐intensity binning for automated zone stats  
+- **Data Processing:** NumPy, pandas
+
 
 ## Credits used for website
-
 - **Vibhav Darsha** — Engineering Manager  
 - **Om Patki** — Software Engineer  
 - **Ayaan Puri** — Software Engineer  
