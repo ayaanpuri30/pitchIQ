@@ -4,7 +4,7 @@ from supabase import create_client, Client
 from fotmob_scraper import Scraper
 
 SUPABASE_URL = "https://rcrngkqsybnjfgyvhnyu.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJjcm5na3FzeWJuamZneXZobnl1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDY5OTYxMzAsImV4cCI6MjA2MjU3MjEzMH0.cMqEN71x059wG5Gw0oDgDk5N8FJ1fgOpTiJ4SP3ppEw"
+SUPABASE_KEY = ""
 
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 scraper = Scraper()
