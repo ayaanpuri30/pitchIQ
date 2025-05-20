@@ -1,0 +1,3 @@
+fbr api - 1 request every 6 seconds
+api football - 100 requests per day.
+SoccerData - scrapes, not fast enough for loading onto a website

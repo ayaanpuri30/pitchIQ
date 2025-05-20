@@ -1,0 +1,194 @@
+const AtléticoMadridData = {
+  "club_name": "Atl\u00e9tico Madrid",
+  "club_logo": "https://cdn.sportmonks.com/images/soccer/teams/12/7980.png",
+  "manager_name": "Diego Pablo Simeone",
+  "manager_photo": "https://cdn.sportmonks.com/images/soccer/players/18/452946.png",
+  "squad": [
+    {
+      "id": 96247,
+      "name": "Thomas Lemar",
+      "age": "1995-11-12",
+      "number": 11,
+      "position": "Midfielder",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/23/96247.png"
+    },
+    {
+      "id": 185571,
+      "name": "Koke",
+      "age": "1992-01-08",
+      "number": 6,
+      "position": "Midfielder",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/3/185571.png"
+    },
+    {
+      "id": 186795,
+      "name": "Marcos Llorente",
+      "age": "1995-01-30",
+      "number": 14,
+      "position": "Midfielder",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/11/186795.png"
+    },
+    {
+      "id": 163108,
+      "name": "Reinildo Isnard Mandava",
+      "age": "1994-01-21",
+      "number": 23,
+      "position": "Defender",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/4/163108.png"
+    },
+    {
+      "id": 25514,
+      "name": "Alexander S\u00f8rloth",
+      "age": "1995-12-05",
+      "number": 9,
+      "position": "Forward",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/10/25514.png"
+    },
+    {
+      "id": 186675,
+      "name": "\u00c1ngel Correa",
+      "age": "1995-03-09",
+      "number": 10,
+      "position": "Forward",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/19/186675.png"
+    },
+    {
+      "id": 159276,
+      "name": "Jan Oblak",
+      "age": "1993-01-07",
+      "number": 13,
+      "position": "Goalkeeper",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/12/159276.png"
+    },
+    {
+      "id": 333616,
+      "name": "Juan Musso",
+      "age": "1994-05-06",
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/16/333616.png"
+    },
+    {
+      "id": 37423008,
+      "name": "Pablo Barrios",
+      "age": "2003-06-15",
+      "number": 8,
+      "position": "Midfielder",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/0/37423008.png"
+    },
+    {
+      "id": 37577657,
+      "name": "Giuliano Simeone",
+      "age": null,
+      "number": 22,
+      "position": "Unknown",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/25/37577657.png"
+    },
+    {
+      "id": 186514,
+      "name": "Jos\u00e9 Mar\u00eda Gim\u00e9nez",
+      "age": "1995-01-20",
+      "number": 2,
+      "position": "Defender",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/18/186514.png"
+    },
+    {
+      "id": 455900,
+      "name": "Nahuel Molina",
+      "age": "1998-04-06",
+      "number": 16,
+      "position": "Defender",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/28/455900.png"
+    },
+    {
+      "id": 1494245,
+      "name": "Conor Gallagher",
+      "age": "2000-02-06",
+      "number": 4,
+      "position": "Midfielder",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/5/1494245.png"
+    },
+    {
+      "id": 60270,
+      "name": "Axel Witsel",
+      "age": "1989-01-12",
+      "number": 20,
+      "position": "Defender",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/14/60270.png"
+    },
+    {
+      "id": 129798,
+      "name": "Rodrigo de Paul",
+      "age": "1994-05-24",
+      "number": 5,
+      "position": "Midfielder",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/6/129798.png"
+    },
+    {
+      "id": 4536517,
+      "name": "Rodrigo Riquelme",
+      "age": "2000-04-02",
+      "number": 17,
+      "position": "Midfielder",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/5/4536517.png"
+    },
+    {
+      "id": 463850,
+      "name": "Samuel Lino",
+      "age": "1999-12-23",
+      "number": 12,
+      "position": "Forward",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/10/463850.png"
+    },
+    {
+      "id": 185658,
+      "name": "Antoine Griezmann",
+      "age": "1991-03-21",
+      "number": 7,
+      "position": "Forward",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/26/185658.png"
+    },
+    {
+      "id": 21394947,
+      "name": "Juli\u00e1n \u00c1lvarez",
+      "age": "2000-01-31",
+      "number": 19,
+      "position": "Forward",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/3/21394947.png"
+    },
+    {
+      "id": 96741,
+      "name": "Cl\u00e9ment Lenglet",
+      "age": "1995-06-17",
+      "number": 15,
+      "position": "Defender",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/5/96741.png"
+    },
+    {
+      "id": 190049,
+      "name": "Javi Gal\u00e1n",
+      "age": "1994-11-19",
+      "number": 21,
+      "position": "Defender",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/1/190049.png"
+    },
+    {
+      "id": 1330,
+      "name": "C\u00e9sar Azpilicueta",
+      "age": "1989-08-28",
+      "number": 3,
+      "position": "Defender",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/18/1330.png"
+    },
+    {
+      "id": 100580,
+      "name": "Robin Le Normand",
+      "age": "1996-11-11",
+      "number": 24,
+      "position": "Defender",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/4/100580.png"
+    }
+  ]
+};
+
+export default AtléticoMadridData;

@@ -1,0 +1,257 @@
+/* Main container with top margin to account for fixed navbar */
+.club-container {
+    margin-top: 70px;
+    padding: 20px;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .club-header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 20px;
+  }
+  
+  .club-header-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .club-logo {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .club-name {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  .coach-image {
+    width: 140px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .club-content {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+  }
+  
+  .club-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .club-left-column {
+    flex: 1;
+  }
+  
+  .club-right-column {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+  }
+  
+  .content-box {
+    background-color: #1a1a1a;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  .head-box {
+    background-color: #1a1a1a;
+    border-radius: 16px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .description-box {
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  
+  .player-data-box {
+    flex: 1;
+  }
+  
+  .tabs-header {
+    display: flex;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #333;
+  }
+  
+  .player-tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s ease;
+  }
+  
+  .player-tab:hover {
+    background-color: #252525;
+  }
+  
+  .player-tab.active {
+    border-bottom: 3px solid #9264ff;
+    color: #9264ff;
+  }
+  
+  .player-tabs-content {
+    min-height: 200px;
+  }
+  
+  .coach-stats-box {
+    grid-column: 1 / span 2;
+    flex: 1
+  }
+  
+  .coach-stats-box h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #9264ff;
+  }
+  
+  .coach-stats-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .stats-row {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .stat-item {
+    text-align: center;
+  }
+  
+  .stat-percent {
+    background-color: #9264ff;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .stat-label {
+    font-size: 0.9em;
+    color: #ccc;
+  }
+  
+  .stats-seasons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+  }
+  
+  .season {
+    font-size: 0.9em;
+    color: #ccc;
+  }
+  
+  .formation-box h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #9264ff;
+  }
+  
+  .formation-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+  }
+  
+  .pitch-outline {
+    width: 100%;
+    height: 100%;
+    background-color: #0d3c22;
+    border-radius: 8px;
+    position: relative;
+    border: 2px solid white;
+    box-sizing: border-box;
+  }
+  
+  .player-position {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #ff5252;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .heatmap-box h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #9264ff;
+  }
+  .borderedImg{
+    border-radius: 15%;
+  }
+  .heatmap-content {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .heatmap-visualization {
+    width: 100%;
+    height: 100%;
+    background-color: #0d3c22;
+    border-radius: 8px;
+    position: relative;
+    border: 2px solid white;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  .heatmap-gradient {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70%;
+    height: 100%;
+    background: linear-gradient(to right, 
+      rgba(0, 255, 0, 0.1), 
+      rgba(255, 255, 0, 0.5), 
+      rgba(255, 0, 0, 0.8)
+    );
+  }
+  
+  @media (max-width: 992px) {
+    .club-content {
+      flex-direction: column;
+    }
+    
+    .club-right-column {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .club-header-section {
+      flex-direction: column;
+      text-align: center;
+      gap: 15px;
+    }
+    
+    .club-header-left {
+      flex-direction: column;
+    }
+  }

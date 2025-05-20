@@ -1,0 +1,208 @@
+{
+    "club_name": "Liverpool",
+    "club_logo": "https://cdn.sportmonks.com/images/soccer/teams/8/8.png",
+    "manager_name": "Arne Slot",
+    "manager_photo": "https://cdn.sportmonks.com/images/soccer/players/12/23180.png",
+    "squad": [
+        {
+            "id": 9606060,
+            "name": "V\u00edt\u011bzslav Jaro\u0161",
+            "age": "2001-07-23",
+            "number": 56,
+            "position": "Goalkeeper",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/12/9606060.png"
+        },
+        {
+            "id": 37316836,
+            "name": "Tyler Morton",
+            "age": "2002-10-31",
+            "number": 80,
+            "position": "Midfielder",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/4/37316836.png"
+        },
+        {
+            "id": 23269836,
+            "name": "Harvey Elliott",
+            "age": "2003-04-04",
+            "number": 19,
+            "position": "Midfielder",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/12/23269836.png"
+        },
+        {
+            "id": 309344,
+            "name": "Wataru Endo",
+            "age": "1993-02-09",
+            "number": 3,
+            "position": "Midfielder",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/0/309344.png"
+        },
+        {
+            "id": 241036,
+            "name": "Luis D\u00edaz",
+            "age": "1997-01-13",
+            "number": 7,
+            "position": "Forward",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/12/241036.png"
+        },
+        {
+            "id": 37316834,
+            "name": "Harvey Davies",
+            "age": "2003-09-03",
+            "number": 95,
+            "position": "Goalkeeper",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/2/37316834.png"
+        },
+        {
+            "id": 896225,
+            "name": "Caoimhin Kelleher",
+            "age": "1998-11-23",
+            "number": 62,
+            "position": "Goalkeeper",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/1/896225.png"
+        },
+        {
+            "id": 216612,
+            "name": "Alexis Mac Allister",
+            "age": "1998-12-24",
+            "number": 10,
+            "position": "Midfielder",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/4/216612.png"
+        },
+        {
+            "id": 4545513,
+            "name": "Curtis Jones",
+            "age": "2001-01-30",
+            "number": 17,
+            "position": "Midfielder",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/9/4545513.png"
+        },
+        {
+            "id": 159917,
+            "name": "Diogo Jota",
+            "age": "1996-12-04",
+            "number": 20,
+            "position": "Forward",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/13/159917.png"
+        },
+        {
+            "id": 785998,
+            "name": "Dominik Szoboszlai",
+            "age": "2000-10-25",
+            "number": 8,
+            "position": "Midfielder",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/14/785998.png"
+        },
+        {
+            "id": 1078,
+            "name": "Andrew Robertson",
+            "age": "1994-03-11",
+            "number": 26,
+            "position": "Defender",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/22/1078.png"
+        },
+        {
+            "id": 4125,
+            "name": "Mohamed Salah",
+            "age": "1992-06-15",
+            "number": 11,
+            "position": "Forward",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/29/4125.png"
+        },
+        {
+            "id": 5270462,
+            "name": "Ryan Gravenberch",
+            "age": "2002-05-16",
+            "number": 38,
+            "position": "Midfielder",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/30/5270462.png"
+        },
+        {
+            "id": 1453,
+            "name": "Joe Gomez",
+            "age": "1997-05-23",
+            "number": 2,
+            "position": "Defender",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/13/1453.png"
+        },
+        {
+            "id": 129836,
+            "name": "Federico Chiesa",
+            "age": "1997-10-25",
+            "number": 14,
+            "position": "Forward",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/12/129836.png"
+        },
+        {
+            "id": 129820,
+            "name": "Alisson",
+            "age": "1992-10-02",
+            "number": 1,
+            "position": "Goalkeeper",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/28/129820.png"
+        },
+        {
+            "id": 100556,
+            "name": "Ibrahima Konat\u00e9",
+            "age": "1999-05-25",
+            "number": 5,
+            "position": "Defender",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/12/100556.png"
+        },
+        {
+            "id": 1743,
+            "name": "Virgil van Dijk",
+            "age": "1991-07-08",
+            "number": 4,
+            "position": "Defender",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/15/1743.png"
+        },
+        {
+            "id": 37259163,
+            "name": "Jarell Quansah",
+            "age": "2003-01-29",
+            "number": 78,
+            "position": "Defender",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/27/37259163.png"
+        },
+        {
+            "id": 1917,
+            "name": "Trent Alexander-Arnold",
+            "age": "1998-10-07",
+            "number": 66,
+            "position": "Defender",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/29/1917.png"
+        },
+        {
+            "id": 37316835,
+            "name": "Conor Bradley",
+            "age": "2003-07-09",
+            "number": 84,
+            "position": "Defender",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/3/37316835.png"
+        },
+        {
+            "id": 84627,
+            "name": "Konstantinos Tsimikas",
+            "age": "1996-05-12",
+            "number": 21,
+            "position": "Defender",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/19/84627.png"
+        },
+        {
+            "id": 30062,
+            "name": "Cody Gakpo",
+            "age": "1999-05-07",
+            "number": 18,
+            "position": "Forward",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/14/30062.png"
+        },
+        {
+            "id": 6013424,
+            "name": "Darwin N\u00fa\u00f1ez",
+            "age": "1999-06-24",
+            "number": 9,
+            "position": "Forward",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/16/6013424.png"
+        }
+    ]
+}

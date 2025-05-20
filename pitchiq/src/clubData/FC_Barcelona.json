@@ -1,0 +1,216 @@
+{
+    "club_name": "FC Barcelona",
+    "club_logo": "https://cdn.sportmonks.com/images/soccer/teams/19/83.png",
+    "manager_name": "Hans-Dieter Flick",
+    "manager_photo": "https://cdn.sportmonks.com/images/soccer/coaches/15/37352367.png",
+    "squad": [
+        {
+            "id": 37584217,
+            "name": "Marc Casad\u00f3",
+            "age": "2003-09-14",
+            "number": 17,
+            "position": "Midfielder",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/25/37584217.png"
+        },
+        {
+            "id": 469717,
+            "name": "Ronald Ara\u00fajo",
+            "age": "1999-03-07",
+            "number": 4,
+            "position": "Defender",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/21/469717.png"
+        },
+        {
+            "id": 37512281,
+            "name": "Pau V\u00edctor",
+            "age": "2001-11-26",
+            "number": 18,
+            "position": "Forward",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/25/37512281.png"
+        },
+        {
+            "id": 805,
+            "name": "Wojciech Szcz\u0119sny",
+            "age": "1990-04-18",
+            "number": 25,
+            "position": "Goalkeeper",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/5/805.png"
+        },
+        {
+            "id": 337394,
+            "name": "Jules Kound\u00e9",
+            "age": "1998-11-12",
+            "number": 23,
+            "position": "Defender",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/18/337394.png"
+        },
+        {
+            "id": 37357510,
+            "name": "Gerard Mart\u00edn",
+            "age": "2002-02-26",
+            "number": 35,
+            "position": "Defender",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/6/37357510.png"
+        },
+        {
+            "id": 74060,
+            "name": "Dani Olmo",
+            "age": "1998-05-07",
+            "number": 20,
+            "position": "Midfielder",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/12/74060.png"
+        },
+        {
+            "id": 37656169,
+            "name": "Hector Fort",
+            "age": "2006-08-02",
+            "number": 32,
+            "position": "Defender",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/9/37656169.png"
+        },
+        {
+            "id": 4460,
+            "name": "Andreas Christensen",
+            "age": "1996-04-10",
+            "number": 15,
+            "position": "Defender",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/12/4460.png"
+        },
+        {
+            "id": 37316480,
+            "name": "Alejandro Balde",
+            "age": "2003-10-18",
+            "number": 3,
+            "position": "Defender",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/0/37316480.png"
+        },
+        {
+            "id": 37656790,
+            "name": "Pau Cubars\u00ed",
+            "age": "2007-01-22",
+            "number": 2,
+            "position": "Defender",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/22/37656790.png"
+        },
+        {
+            "id": 185923,
+            "name": "I\u00f1igo Mart\u00ednez",
+            "age": "1991-05-17",
+            "number": 5,
+            "position": "Defender",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/3/185923.png"
+        },
+        {
+            "id": 26536,
+            "name": "Frenkie de Jong",
+            "age": "1997-05-12",
+            "number": 21,
+            "position": "Midfielder",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/8/26536.png"
+        },
+        {
+            "id": 31000,
+            "name": "Robert Lewandowski",
+            "age": "1988-08-21",
+            "number": 9,
+            "position": "Forward",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/24/31000.png"
+        },
+        {
+            "id": 448389,
+            "name": "Ferran Torres",
+            "age": "2000-02-29",
+            "number": 7,
+            "position": "Forward",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/5/448389.png"
+        },
+        {
+            "id": 37710798,
+            "name": "Marc Bernal",
+            "age": "2007-05-26",
+            "number": 28,
+            "position": "Midfielder",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/14/37710798.png"
+        },
+        {
+            "id": 160258,
+            "name": "Raphinha",
+            "age": "1996-12-14",
+            "number": 11,
+            "position": "Forward",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/2/160258.png"
+        },
+        {
+            "id": 4545389,
+            "name": "Eric Garc\u00eda",
+            "age": "2001-01-09",
+            "number": 24,
+            "position": "Defender",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/13/4545389.png"
+        },
+        {
+            "id": 37527162,
+            "name": "Pablo Torre",
+            "age": "2003-04-03",
+            "number": 14,
+            "position": "Midfielder",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/26/37527162.png"
+        },
+        {
+            "id": 31284,
+            "name": "Marc-Andr\u00e9 ter Stegen",
+            "age": "1992-04-30",
+            "number": 1,
+            "position": "Goalkeeper",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/20/31284.png"
+        },
+        {
+            "id": 37596363,
+            "name": "Ferm\u00edn L\u00f3pez",
+            "age": "2003-05-11",
+            "number": 16,
+            "position": "Midfielder",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/11/37596363.png"
+        },
+        {
+            "id": 529415,
+            "name": "I\u00f1aki Pe\u00f1a",
+            "age": "1999-03-02",
+            "number": 13,
+            "position": "Goalkeeper",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/7/529415.png"
+        },
+        {
+            "id": 37459030,
+            "name": "Gavi",
+            "age": "2004-08-05",
+            "number": 6,
+            "position": "Midfielder",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/22/37459030.png"
+        },
+        {
+            "id": 37656179,
+            "name": "Lamine Yamal",
+            "age": "2007-07-13",
+            "number": 19,
+            "position": "Forward",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/19/37656179.png"
+        },
+        {
+            "id": 23269740,
+            "name": "Ansu Fati",
+            "age": "2002-10-31",
+            "number": 10,
+            "position": "Forward",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/12/23269740.png"
+        },
+        {
+            "id": 37288001,
+            "name": "Pedri",
+            "age": "2002-11-25",
+            "number": 8,
+            "position": "Midfielder",
+            "photo": "https://cdn.sportmonks.com/images/soccer/players/1/37288001.png"
+        }
+    ]
+}

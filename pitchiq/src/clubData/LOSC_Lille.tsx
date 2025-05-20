@@ -1,0 +1,218 @@
+const LOSCLilleData = {
+  "club_name": "LOSC Lille",
+  "club_logo": "https://cdn.sportmonks.com/images/soccer/teams/18/690.png",
+  "manager_name": "Bruno G\u00e9n\u00e9sio",
+  "manager_photo": "https://cdn.sportmonks.com/images/soccer/placeholder.png",
+  "squad": [
+    {
+      "id": 37652750,
+      "name": "Matias Fernandez",
+      "age": "2005-02-03",
+      "number": 19,
+      "position": "Forward",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/14/37652750.png"
+    },
+    {
+      "id": 37646962,
+      "name": "Tiago Santos",
+      "age": "2002-07-23",
+      "number": 22,
+      "position": "Defender",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/18/37646962.png"
+    },
+    {
+      "id": 37676891,
+      "name": "Ngal'ayel Mukau",
+      "age": "2004-11-03",
+      "number": 17,
+      "position": "Midfielder",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/27/37676891.png"
+    },
+    {
+      "id": 159372,
+      "name": "Andr\u00e9 Gomes",
+      "age": "1993-07-30",
+      "number": 26,
+      "position": "Midfielder",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/12/159372.png"
+    },
+    {
+      "id": 15875734,
+      "name": "Osame Sahraoui",
+      "age": "2001-06-11",
+      "number": 11,
+      "position": "Forward",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/22/15875734.png"
+    },
+    {
+      "id": 95168,
+      "name": "Benjamin Andr\u00e9",
+      "age": "1990-08-03",
+      "number": 21,
+      "position": "Midfielder",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/0/95168.png"
+    },
+    {
+      "id": 32777470,
+      "name": "Hakon Arnar Haraldsson",
+      "age": "2003-04-10",
+      "number": 7,
+      "position": "Midfielder",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/30/32777470.png"
+    },
+    {
+      "id": 158933,
+      "name": "Ismaily",
+      "age": "1990-01-11",
+      "number": 31,
+      "position": "Defender",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/21/158933.png"
+    },
+    {
+      "id": 95496,
+      "name": "Samuel Umtiti",
+      "age": "1993-11-14",
+      "number": 14,
+      "position": "Defender",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/8/95496.png"
+    },
+    {
+      "id": 29809271,
+      "name": "Alexsandro Ribeiro",
+      "age": "1999-08-09",
+      "number": 4,
+      "position": "Defender",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/23/29809271.png"
+    },
+    {
+      "id": 1421,
+      "name": "R\u00e9my Cabella",
+      "age": "1990-03-08",
+      "number": 10,
+      "position": "Midfielder",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/13/1421.png"
+    },
+    {
+      "id": 96104,
+      "name": "Marc-Aurele Caillard",
+      "age": "1994-05-12",
+      "number": 16,
+      "position": "Goalkeeper",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/8/96104.png"
+    },
+    {
+      "id": 95635,
+      "name": "A\u00efssa Mandi",
+      "age": "1991-10-22",
+      "number": 2,
+      "position": "Defender",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/19/95635.png"
+    },
+    {
+      "id": 16827175,
+      "name": "Jonathan David",
+      "age": "2000-01-14",
+      "number": 9,
+      "position": "Forward",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/7/16827175.png"
+    },
+    {
+      "id": 193196,
+      "name": "Gabriel Gudmundsson",
+      "age": "1999-04-29",
+      "number": 5,
+      "position": "Defender",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/12/193196.png"
+    },
+    {
+      "id": 2158213,
+      "name": "Edon Zhegrova",
+      "age": "1999-03-31",
+      "number": 23,
+      "position": "Forward",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/5/2158213.png"
+    },
+    {
+      "id": 61517,
+      "name": "Thomas Meunier",
+      "age": "1991-09-12",
+      "number": 12,
+      "position": "Defender",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/13/61517.png"
+    },
+    {
+      "id": 537285,
+      "name": "Mitchel Bakker",
+      "age": "2000-06-20",
+      "number": 20,
+      "position": "Defender",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/5/537285.png"
+    },
+    {
+      "id": 937,
+      "name": "Nabil Bentaleb",
+      "age": "1994-11-24",
+      "number": 6,
+      "position": "Midfielder",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/9/937.png"
+    },
+    {
+      "id": 37717176,
+      "name": "Ayyoub Bouaddi",
+      "age": "2007-10-02",
+      "number": 32,
+      "position": "Midfielder",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/24/37717176.png"
+    },
+    {
+      "id": 838,
+      "name": "Vito Mannone",
+      "age": "1988-03-02",
+      "number": 1,
+      "position": "Goalkeeper",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/6/838.png"
+    },
+    {
+      "id": 37656061,
+      "name": "Ethan Mbapp\u00e9",
+      "age": "2006-12-29",
+      "number": 29,
+      "position": "Midfielder",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/29/37656061.png"
+    },
+    {
+      "id": 22536030,
+      "name": "Bafod\u00e9 Diakit\u00e9",
+      "age": "2001-01-06",
+      "number": 18,
+      "position": "Defender",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/30/22536030.png"
+    },
+    {
+      "id": 608285,
+      "name": "Angel Gomes",
+      "age": "2000-08-31",
+      "number": 8,
+      "position": "Midfielder",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/29/608285.png"
+    },
+    {
+      "id": 17187774,
+      "name": "Lucas Chevalier",
+      "age": "2001-11-06",
+      "number": 30,
+      "position": "Goalkeeper",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/30/17187774.png"
+    },
+    {
+      "id": 1913,
+      "name": "Chuba Akpom",
+      "age": "1995-10-09",
+      "number": 24,
+      "position": "Forward",
+      "photo": "https://cdn.sportmonks.com/images/soccer/players/25/1913.png"
+    }
+  ]
+};
+
+export default LOSCLilleData;
