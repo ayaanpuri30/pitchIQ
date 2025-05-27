@@ -36,8 +36,9 @@ function LeaguePage({ setClubData } : LeaguePageProps) {
             const { data: squad, error: squadError } = await supabase
                 .from('players')
                 .select('*')
-                .eq('club_name', selectedClub);
-
+                .eq('club_name', selectedClub)
+                .order('player_id', { ascending: true });
+            
             const { data: summaries, error: summariesError } = await supabase
                 .from('playstyle_summaries')
                 .select('*')
